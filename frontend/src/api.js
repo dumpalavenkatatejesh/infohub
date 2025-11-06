@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-// backend base URL — change to your Render/Vercel backend URL after deploy
-const BASE_URL = 'http://localhost:5000/api';
+const BASE_URL = 'https://infohub-lnu0.onrender.com/';
 
 export const getWeather = async (city) => {
   const res = await axios.get(`${BASE_URL}/weather?city=${city}`);

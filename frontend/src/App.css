@@ -1,0 +1,9 @@
+.app { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+.container { padding: 20px; max-width: 900px; margin: 0 auto; }
+.card { background: #fff; padding: 18px; border-radius: 10px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); margin-top: 20px; }
+.row { display:flex; gap:10px; align-items:center; }
+input[type="text"], input[type="number"], select { padding:8px 10px; border-radius:6px; border:1px solid #ddd; }
+button { padding:8px 12px; border-radius:6px; border:none; background:#111; color:#fff; cursor:pointer; }
+button:disabled { opacity:0.6; cursor:not-allowed; }
+.error { color:#b00020; background:#fff0f0; padding:8px; border-radius:6px; }
+blockquote { margin: 10px 0; padding-left:12px; border-left:3px solid #eee; color:#333; }
